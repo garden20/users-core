@@ -5,7 +5,8 @@ exports.init = function (url) {
         '/signup':    require('./views/signup'),
         '/login':     require('./views/login'),
         '/login/*':   require('./views/login'),
-        '/profile/*': require('./views/profile')
+        '/profile/*': require('./views/profile'),
+        '/view/*': require('./views/profile')
     });
     router.configure({
         on: function () {
